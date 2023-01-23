@@ -1,0 +1,22 @@
+{
+    "pensamentos": [
+        {
+            "id" : "1",
+            "conteudo": "Hoje é segunda",
+            "autoria": "Dev",
+            "modelo": "modelo1"
+        },
+        {
+            "id" : "2",
+            "conteudo": "Hoje é terça",
+            "autoria": "Dev",
+            "modelo": "modelo2"
+        },
+        {
+            "id" : "3",
+            "conteudo": "Hoje é quarta",
+            "autoria": "Dev",
+            "modelo": "modelo3"
+        }
+    ]
+}
