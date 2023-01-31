@@ -1,7 +1,7 @@
+import { Router } from '@angular/router';
 import { PensamentoService } from './../pensamento.service';
 import { Pensamento } from './../pensamento';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -12,7 +12,7 @@ export class CriarPensamentoComponent implements OnInit {
   pensamento: Pensamento = {
     conteudo: '',
     autoria: '',
-    modelo: '',
+    modelo: 'modelo1',
   };
 
   constructor(private service: PensamentoService, private router: Router) {}
